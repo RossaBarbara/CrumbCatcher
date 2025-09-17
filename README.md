@@ -1,7 +1,4 @@
 # CrumbCatcher
-CrumbCatcher – a multi-browser history &amp; bookmark extractor. Query Firefox, Chrome, Edge, Brave, Opera (and more) for specific URLs or domains, export results to SQLite, and trace your digital breadcrumb trails.
-
-# CrumbCatcher
 
 CrumbCatcher is a cross-browser history and bookmark extractor.  
 It allows you to search for any URL fragment (such as `google.com` or `comick.io/comic/`) across multiple browsers and exports the results into a SQLite database.
