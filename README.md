@@ -1,7 +1,7 @@
 # CrumbCatcher
 
 CrumbCatcher is a cross-browser history and bookmark extractor.  
-It allows you to search for any URL fragment (such as `google.com` or `comick.io/comic/`) across multiple browsers and exports the results into a SQLite database.
+It allows you to search for any URL fragment (such as `google.com` or `youtube.com/feed/history`) across multiple browsers and exports the results into a SQLite database.
 
 ---
 
