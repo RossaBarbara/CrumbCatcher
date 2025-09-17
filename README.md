@@ -19,7 +19,6 @@ It allows you to search for any URL fragment (such as `google.com` or `comick.io
   - total records found
   - duplicates removed
   - unique entries saved
-- Safe handling of existing output files (overwrite, backup, or abort)
 
 ---
 
