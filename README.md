@@ -7,16 +7,18 @@ It allows you to search for any URL fragment (such as `google.com` or `comick.io
 
 ## Features
 - Search by any URL fragment (e.g. `youtube.com`, `reddit.com/r/python`)
-- Works with multiple browsers:
-  - Firefox
-  - Chrome
-  - Edge
-  - Brave
-  - Opera
-- Extracts from both history and bookmarks
-- Exports results to `results_lookup.sqlite` (viewable with [DB Browser for SQLite](https://sqlitebrowser.org/))
-- Deduplicates automatically
-- Prints a summary report of what was found per browser
+- Works across platforms: **Windows, Linux, macOS**
+- Supports multiple browsers:
+  - Firefox, Waterfox, LibreWolf, Pale Moon
+  - Chrome, Edge, Brave, Opera, Vivaldi, Ungoogled-Chromium
+- Extracts from both history and bookmarks (where supported)
+- Deduplicates automatically across browsers and profiles
+- Exports results to a timestamped SQLite database:  
+  `Crumbs_YYYY-MMM-DD_HH-MM-SS.sqlite`
+- Prints a summary report of:
+  - total records found
+  - duplicates removed
+  - unique entries saved
 - Safe handling of existing output files (overwrite, backup, or abort)
 
 ---
